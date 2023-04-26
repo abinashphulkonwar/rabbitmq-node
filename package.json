@@ -9,7 +9,8 @@
   "author": "abinash phulkonwar",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.10.3"
+    "amqplib": "^0.10.3",
+    "kafkajs": "^2.2.4"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.1"

@@ -23,7 +23,9 @@ amqp.connect(`amqp://${process.env.AMQP}`, (err, connection) => {
         await new Promise((resolve) => setTimeout(resolve, 400));
 
         const message = msg + " " + i + " " + randomUUID() + " " + new Date();
-        channel.sendToQueue(queue, Buffer.from(message));
+        channel.sendToQueue(queue, Buffer.from(message), {
+          expiration: "30000",
+        });
         console.log(" [x] Sent %s", message);
       }
     };
