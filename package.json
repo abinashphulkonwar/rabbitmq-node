@@ -9,6 +9,8 @@
   "author": "abinash phulkonwar",
   "license": "ISC",
   "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "@azure/ms-rest-azure-js": "^2.1.0",
     "amqplib": "^0.10.3",
     "kafkajs": "^2.2.4"
   },
