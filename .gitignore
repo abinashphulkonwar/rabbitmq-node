@@ -3,3 +3,5 @@ docker_digital_ocean_id_rsa.pub
 node_modules
 commands.md
 .env
+kafka/post/data.json
+kafka/post/follow.json
