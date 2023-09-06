@@ -5,3 +5,5 @@ commands.md
 .env
 kafka/post/data.json
 kafka/post/follow.json
+data.ts
+text.txt
